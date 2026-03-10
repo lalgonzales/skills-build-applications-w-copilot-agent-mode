@@ -1,0 +1,4 @@
+Watching for file changes with StatReloader
+[10/Mar/2026 11:21:45] "GET /api/activities/ HTTP/1.1" 200 832
+[10/Mar/2026 11:22:05] "GET /api/activities/ HTTP/1.1" 200 832
+[10/Mar/2026 11:22:23] "GET /api/activities/ HTTP/1.1" 200 832
