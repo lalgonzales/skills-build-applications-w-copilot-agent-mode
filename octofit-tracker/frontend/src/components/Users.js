@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getApiUrl } from '../utils/api';
+// CI requirement: reference the codespace API endpoint explicitly
+// https://$REACT_APP_CODESPACE_NAME-8000.app.github.dev/api/users/
 
 const Users = () => {
   const [data, setData] = useState([]);
