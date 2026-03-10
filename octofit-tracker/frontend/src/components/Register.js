@@ -13,7 +13,7 @@ const Register = ({ onRegister }) => {
       setError('Passwords do not match');
       return;
     }
-    const url = `https://${process.env.REACT_APP_CODESPACE_NAME}-8000.app.github.dev/api/auth/registration/`;
+    const url = getApiUrl('/api/auth/registration/');
     console.log('Registering via', url);
     fetch(url, {
       method: 'POST',

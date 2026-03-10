@@ -7,7 +7,7 @@ const Login = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = `https://${process.env.REACT_APP_CODESPACE_NAME}-8000.app.github.dev/api/auth/login/`;
+    const url = getApiUrl('/api/auth/login/');
     console.log('Logging in with', url);
     fetch(url, {
       method: 'POST',
